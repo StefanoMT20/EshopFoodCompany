@@ -80,6 +80,7 @@ body{
 .margin-r-sm{
     margin-right: 1.6rem;
 }
+
 .container{
     max-width: 120rem;
     margin: 0 auto;
@@ -108,4 +109,7 @@ body{
 }
 .grid-5-cols{
     grid-template-columns: repeat(5, 1fr);
+}
+.margin-b-md{
+    margin-bottom: 4.2rem;
 }
