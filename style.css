@@ -265,5 +265,25 @@ ul{
 /****TESTIMONIALS SECTION*****/
 /****************************/
 .section-testimonials{
-    padding: 9.6rem 0;
+    padding: 9.6rem;
+    background-color: #fdf2e9;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.6rem;
+}
+.testimonial-text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+}
+.testimonials-name{
+    font-size: 1.6rem;
+    color: #777;
+}
+.testimonial-img{
+    border-radius: 50%;
+    width: 6.4rem;
+    margin-bottom: 1.2rem;
 }
