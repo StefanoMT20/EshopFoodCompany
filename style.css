@@ -403,7 +403,7 @@ transform: scale(1.1);
     display: grid;
     grid-template-columns: 2fr 1fr;
     background: linear-gradient(to right bottom, #eb984e, #e67e22);
-    height: 47.3rem;
+
     border-radius: 11px ;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.0075);
 }
@@ -418,7 +418,82 @@ transform: scale(1.1);
 .cta-text{
     font-size: 1.8rem;
     line-height: 1.8;
+    margin-bottom: 4.8rem;
 }
 .cta-text-box h2{
+    color: inherit;
+    margin-bottom: 3.2rem;
+}
+.cta-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+.cta-form label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.cta-form input,
+select{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fae5d3;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta-form input::placeholder{
+    color: #aaa;
+}
 
+.cta-form *:focus{
+    outline: nonne;
+    box-shadow: 0 0 0 0.8rem rgba(253 , 242, 233, 0.5);
+}
+/****************************/
+/****FOOTER SECTION*****/
+/****************************/
+.footer{
+    border-top: 1px solid #eee;
+    padding: 9.6rem 0;
+}
+.logo-col{
+    display: flex;
+    flex-direction: column;
+}
+.social-links{
+    display: flex;
+    gap: 2.4rem;
+
+}
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 3.2rem;
+}
+.social-links ion-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.copyright{
+    margin-top: 4.2rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    
+}
+.footer-heading{
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer-nav, .contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.6rem;
 }

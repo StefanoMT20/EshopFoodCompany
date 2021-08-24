@@ -399,14 +399,102 @@
                     <div class="cta-text-box">
                         <h2 class="heading-secondary">Get your first meal for free!</h2>
                         <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us! </p>
+                        
+                        <form class="cta-form" action="#">
+                            <div>
+                                <label for="name">Full Name</label>
+                                <input type="text" placeholder="Your name" id="name" required>
+                            </div>
+                         
+                            <div>
+                                <label for="email">Email address</label>
+                                <input type="email" name="" id="name" required>
+                            </div>
+                          <div>
+                            <label for="social">Where did you hear from us?</label>
+                            <select required id="social">
+                                <option>Please select one:</option>
+                                <option value="friends">Friends and family</option>
+                                <option value="youtube">Youtube</option>
+                                <option value="podcast">podcast</option>
+                                <option value="facebook">facebook</option>
+                                <option value="instagram">instagram</option>
+                            </select>
+                          </div>
+
+                           
+                            <button class="btn btn--form" type="submit">Sign up now</button>
+                        </form>
                     </div>
-                    <div class="cta-img-box" role="img">
-                    </div>
+                
+                    <div class="cta-img-box" role="img"></div>
                 </div>
             </div>
-
         </section>
     </main>
+    <footer class="footer">
+        <div class="container grid grid-5-cols">
+            <div class="logo-col"> <a href="#" class="footer-logo"><img class="logo" src="img/omnifood-logo.png" alt="Omnifood Logo"></a>
+                <ul class="social-links">
+                    <li>
+                        <a href="">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            <p class="copyright">Copyright &copy; 2021 by Omnifood, Inc. All rights deserved</p>
+            </div>
+            <div class="contact">
+                <p class="footer-heading">Contact Us</p>
+                <address class="contacts">
+                    <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                    <p>
+                        <a href="tel:415-201-6370">415-201-6370</a>
+                    </p>
+                    <p>
+                        <a href="mailto:info@omnifood.com">info@omnifood.com</a>
+                    </p>
+                </address>
+            </div>
+            <nav class="account">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li><a href="">Create account</a></li>
+                    <li><a href="">Sign in</a></li>
+                    <li><a href="">iOs app</a></li>
+                    <li><a href="">Android app</a></li>
+                </ul>
+            </nav>
+            <nav class="company">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a href="">About Omnifood</a></li>
+                    <li><a href="">For Business</a></li>
+                    <li><a href="">Cookin partners</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </nav>
+            <nav class="resources">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a href="">Recipe directory</a></li>
+                    <li><a href="">Help center</a></li>
+                    <li><a href="">Privacy & terms</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
 </body>
 
 </html>
