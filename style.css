@@ -233,6 +233,8 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    line-height: 1.2;
+    
 }
 .list-icon{
     width: 3rem;
