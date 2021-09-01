@@ -8,11 +8,14 @@ I used the following tools:
 - HTML 5(BEM)
 - CSS 3
 - Grid (layout) & Flexbox (blocks)
+- JavaScript
 
 ## Installation
 ```sh
-pull or fork the repository
+git clone https://github.com/stefanoMTdev/EshopFoodCompany.git
 open index.html
 ```
-Here's a little demo: https://stefanomtdev.github.io/EshopFoodCompany/
+Here's a demo: https://stefanomtdev.github.io/EshopFoodCompany/
 and Preview of the webpage(img) that i made:
+![2366](https://user-images.githubusercontent.com/69438394/131719769-17918b1d-464b-4613-971d-10482a48b33f.png)
+
