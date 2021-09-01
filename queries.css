@@ -118,11 +118,11 @@
 
         transform: translateX(0);
     }
-    .icon-mobile-nav[name="close-outline"]{
+    .nav-open .icon-mobile-nav[name="close-outline"]{
         display: block;
     
     }
-    .icon-mobile-nav[name="menu-outline"]{
+    .nav-open .icon-mobile-nav[name="menu-outline"]{
         display: none;
     
     }
@@ -134,4 +134,33 @@
     .main-nav-item:link{
         font-size: 3rem;
     }
+}
+/* BELOW 704PX SMALLER TABLETS */
+@media(max-width:44em){
+    .grid-3-cols, .grid-4-cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .list{
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+    .heading-secondary{
+        margin-bottom: 4.8rem;
+    }
+    .pricing-plan{
+        width: 100%;
+    }
+    .grid-5-cols{
+        grid-template-columns: repeat(6,1fr);
+    }
+    .logo-col, .contact{
+        grid-column: span 3;
+
+    }
+    .nav-col{
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+    }
+    
 }
