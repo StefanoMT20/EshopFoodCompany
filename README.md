@@ -7,7 +7,7 @@ I used the following tools:
 - Grid (layout) & Flexbox (blocks)
 - JavaScript
 
-![Preview of the webpage](\img\webpage-preview.png)
+![](webpage-preview.jpg)
 This a webpage of a company that sells food in USA with annual membership.
 
 
