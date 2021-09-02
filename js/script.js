@@ -30,4 +30,22 @@ btnMenuNav.addEventListener("click", function () {
       header.classList.toggle("nav-open");
     });
   });
+//Sticky nav
 
+const sectionHero = document.querySelector('.section-hero')
+
+const observer = new IntersectionObserver(function(entries){
+  const ent = entries[0];
+  if(ent.isIntersecting===false){
+    document.body.classList.add("sticky");
+  }
+  else{
+    document.body.classList.remove("sticky");
+  }
+  
+},{
+  //in the viewport
+  root: null,
+  threshold: 0
+})
+observer.observe(sectionHero)

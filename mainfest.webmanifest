@@ -1,0 +1,8 @@
+{
+    "icons":[
+        {
+            "src":"img/flavicon-192.png",
+            "type": "image/png", "sizes": "512x512"
+        }
+    ]
+}
