@@ -6,7 +6,7 @@ I used the following tools:
 - CSS 3
 - Grid (layout) & Flexbox (blocks)
 - JavaScript
-![Preview of the webpage](https://github.com/stefanoMTdev/EshopFoodCompany/blob/master/img/webpage%20preview.pngg)
+![Preview of the webpage](img/webpage preview.png)
 This a webpage of a company that sells food in USA with annual membership.
 
 
