@@ -1,5 +1,5 @@
 # EshopFoodCompany
-Here's a demo: https://stefanomtdev.github.io/EshopFoodCompany/
+Here's a demo: https://omnifood-eshop.netlify.app/
 and Preview of the webpage(img) that i made:
 ![2366](https://user-images.githubusercontent.com/69438394/131719769-17918b1d-464b-4613-971d-10482a48b33f.png)
 This a webpage of a company that sells food in USA with annual membership.
